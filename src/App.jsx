@@ -22,7 +22,7 @@ export const App = () => {
 
   const handleSearchSubmit = event => {
     event.preventDefault();
-    // setLoadMore(false);
+    setLoadMore(false);
 
     const searchValue = event.currentTarget.elements.searchFormInput.value;
     if (searchValue.trim() === '') {
